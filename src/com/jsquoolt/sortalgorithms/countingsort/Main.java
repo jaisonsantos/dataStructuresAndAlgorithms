@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int[] intArray = {2, 5, 9, 8, 2, 8, 7, 10, 6, 3, 4, 3, 1,2, 3,4, 5, 6, 7,3, 2, 4};
+        int[] intArray = {2, 5, 9, 8, 2, 8, 7, 10, 6, 3, 4, 3, 1, 2, 3, 4, 5, 6, 7, 3, 2, 4};
 
         countingSort(intArray, 1, intArray.length);
 
