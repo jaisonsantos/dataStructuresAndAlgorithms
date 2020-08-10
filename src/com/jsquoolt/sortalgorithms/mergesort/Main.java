@@ -26,7 +26,7 @@ public class Main {
     }
 
     private static void merge(int[] input, int start, int mid, int end) {
-
+        // if you want to sort in descending order inside the if you can change '<=' to '>='
         if (input[mid - 1] <= input[mid]) {
             return;
         }
@@ -37,6 +37,7 @@ public class Main {
 
         int[] temp = new int[end - start];
         while (i < mid && j < end) {
+            // also to sort in descending order the second changes is the same '<=' to '>='
             temp[tempIndex++] = input[i] <= input[j] ? input[i++] : input[j++];
         }
 
