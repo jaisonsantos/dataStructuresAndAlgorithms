@@ -1,4 +1,4 @@
-package com.jsquoolt.linkedlist;
+package com.jsquoolt.linkedlist.object;
 
 public class EmployeeNode {
 
