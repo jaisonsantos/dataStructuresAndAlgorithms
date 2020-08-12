@@ -4,7 +4,6 @@ public class IntegerNode {
 
     private Integer value;
     private IntegerNode next;
-    private IntegerNode previous;
 
     public IntegerNode(Integer value) {
         this.value = value;
@@ -24,14 +23,6 @@ public class IntegerNode {
 
     public void setNext(IntegerNode next) {
         this.next = next;
-    }
-
-    public IntegerNode getPrevious() {
-        return previous;
-    }
-
-    public void setPrevious(IntegerNode previous) {
-        this.previous = previous;
     }
 
     public String toString() {
